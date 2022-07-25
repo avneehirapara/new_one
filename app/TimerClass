@@ -52,7 +52,7 @@
 import { Text, View,StyleSheet } from 'react-native'
 import React, { Component } from 'react'
 
-export default class Timer extends Component {
+export default class TimerClass extends Component {
     constructor(props) {
         super(props);
 

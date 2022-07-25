@@ -6,6 +6,8 @@ import State from './app/State'
 import Decrement_Increment from './app/Decrement_Increment'
 import Sub_course from './app/Sub_course'
 import Course from './app/Course'
+import TimerClass from './app/TimerClass'
+import TImeFun from './app/TImeFun'
 
 export default function App() {
  return (
@@ -16,6 +18,8 @@ export default function App() {
       <Course />
       <Sub_course />
       <Calcy />
+      <TimerClass />
+      <TImeFun />
     </View>
   )
 }
