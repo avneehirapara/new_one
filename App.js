@@ -4,6 +4,8 @@ import Calcy from './app/Calcy'
 import City from './app/City'
 import State from './app/State'
 import Decrement_Increment from './app/Decrement_Increment'
+import Sub_course from './app/Sub_course'
+import Course from './app/Course'
 
 export default function App() {
  return (
@@ -11,6 +13,8 @@ export default function App() {
       <City />
       <State />
       <Decrement_Increment />
+      <Course />
+      <Sub_course />
       <Calcy />
     </View>
   )
