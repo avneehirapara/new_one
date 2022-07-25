@@ -8,10 +8,12 @@ import Sub_course from './app/Sub_course'
 import Course from './app/Course'
 import TimerClass from './app/TimerClass'
 import TImeFun from './app/TImeFun'
+import Home from './app/Home'
 
 export default function App() {
  return (
     <View>
+      <Home />
       <City />
       <State />
       <Decrement_Increment />
