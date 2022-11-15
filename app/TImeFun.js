@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React, { useEffect, useState,StyleSheet } from 'react'
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+
 
 export default function TImeFun() {
     const [time, setTime] = useState(new Date()); //1
